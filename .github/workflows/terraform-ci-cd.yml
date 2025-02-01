@@ -35,11 +35,11 @@ jobs:
       # - name: Terraform Refersh
       #   run: terraform refresh
 
-      # - name: Terraform Plan
-      #   run: terraform plan 
+      - name: Terraform Plan
+        run: terraform plan 
 
-      # - name: Terraform Output
-      #   run: terraform output
+      - name: Terraform Output
+        run: terraform output
 
     # Notifications
     # notifications:
