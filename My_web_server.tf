@@ -8,7 +8,7 @@ resource "aws_instance" "web_server_ec2" {
               #!/bin/bash
               yum update -y
               yum install -y httpd
-              echo "<html><body><h1>Hello, World! - RELEX </h1></body></html>" | sudo tee /var/www/html/index.html
+              echo "<html><body><h1>Hello, World! - RELX </h1></body></html>" | sudo tee /var/www/html/index.html
               systemctl start httpd
               systemctl enable httpd
               EOF
