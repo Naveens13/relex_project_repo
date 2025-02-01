@@ -32,11 +32,16 @@ jobs:
       - name: Terraform Validate
         run: terraform validate
 
+      # For future configuration refer README File
+
       # - name: Terraform Refersh
       #   run: terraform refresh
 
       # - name: Terraform Plan
       #   run: terraform plan 
+
+      # - name: Terraform Apply
+      #   run: terraform apply
 
       # - name: Terraform Output
       #   run: terraform output
