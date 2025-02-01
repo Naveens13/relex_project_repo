@@ -15,6 +15,7 @@ This Terraform project provisions an EC2 instance in AWS, configures it as a web
 - [Future Improvements](#future-improvements)
 
 ---
+![Architecture image](https://github.com/user-attachments/assets/509b76de-78cc-4348-a21f-f2f228d324bd)
 
 ## Overview
 
@@ -137,3 +138,4 @@ To destroy aws resources, run:
 ```bash
 terraform destroy
 ```
+
