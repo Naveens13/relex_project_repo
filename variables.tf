@@ -1,0 +1,12 @@
+variable "aws_region" {}
+variable "ami_id" {}
+variable "instance_type" {}
+variable "ec2_name" {}
+variable "vpc_cidr" {}
+variable "route_table_cidr" {}
+variable "ssh_port_number" {}
+variable "http_port_number" {}
+variable "subnet_cidr" {}
+variable "cpu_util_threshold" {}
+variable "cpu_util_period" {}
+variable "cpu_util_evaluation_periods" {}
